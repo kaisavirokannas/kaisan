@@ -1,0 +1,103 @@
+
+
+h1, p {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #3a3835;
+}
+
+
+
+h1 {
+  padding-top:20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 32px;
+  letter-spacing: 0.64px;
+  color: #3a3835;
+
+}
+
+
+/* taustan väri */
+.navbar-custom {
+ background-color: #ffff;
+}
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+ color: #665b49;
+font-family: 'Roboto', sans-serif;
+
+}
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+ color: #665b49;
+ font-family: 'Roboto', sans-serif;
+}
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+ color: #c33701;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(184,15,10)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item .dropdown-menu a:hover {
+           color: white !important;
+           background: #c33701 !important;
+           cursor: pointer;
+ }
+
+ .carousel-inner img {
+   width: 100%;
+   height: 100%;
+ }
+
+ .carousel-caption {
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1px;
+ }
+
+ .carousel-text {
+
+   color: #ffff;
+   letter-spacing: 1px;
+   font-weight: 400;
+ }
+
+ #demo {
+   padding-top: 70px;
+ }
+
+ #ravintola {
+   padding-top: 70px;
+ }
+
+#ravintola img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 100%;
+  padding: 30px;
+
+
+}
+
+
+ @media (max-width: 600px) {
+  .carousel-caption {
+  display: none;
+ }
+ .col-lg-4 {
+   text-align: center;
+ }
+
+ }
